@@ -1,0 +1,33 @@
+{
+  "name": "tsdb-connector",
+  "version": "1.0.0",
+  "description": "Application for file upload and data managment with time series database.",
+  "main": "server/service.js",
+  "scripts": {
+    "start": "nodemon ./bin/run",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IgorDespot/tsdb-connector.git"
+  },
+  "author": "Igor Despot",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IgorDespot/tsdb-connector/issues"
+  },
+  "homepage": "https://github.com/IgorDespot/tsdb-connector#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bunyan": "^1.8.12",
+    "csvtojson": "^2.0.8",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "multer": "^1.4.1",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
